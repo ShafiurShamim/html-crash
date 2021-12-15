@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <!-- Simple Table -->
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>Jenny Doe</td>
+            <td>30</td>
+        </tr>
+    </table>
+    <!-- Colgroup and Caption -->
+    <table border="2">
+        <caption>Person's Table</caption>
+        <colgroup>
+            <col>
+            <col style="background: teal;">
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>Jenny Doe</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <!-- Column Span -->
+    <table border="2">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>Jenny</td>
+            <td>Doe</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <!-- Row Span -->
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <td>John Doe</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>01712</td>
+        </tr>
+        <tr>
+            <td>01912</td>
+        </tr>
+    </table>
+
+    <table border="3" style="width:400px;text-align: center;">
+        <caption>Monthly Bazar</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Unit</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Milk</td>
+                <td>6L</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Potato</td>
+                <td>4Kg</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Meat</td>
+                <td>4kg</td>
+                <td>2400</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" style="text-align: right;">Total</td>
+                <td>2880</td>
+            </tr>
+        </tfoot>
+       
+    </table>
+
+</body>
+</html>
