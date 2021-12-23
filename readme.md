@@ -187,7 +187,7 @@ An inline element only takes up as much width as necessary.
 <iframe src="headings.html" width="200" height="200" frameborder="2"></iframe>
 ```
 
-## Miscellaneous
+## Sctipt, Style, Link, Meta, Base
 
 ```html
 <!-- The <script> tag is used to embed a client-side script -->
@@ -224,5 +224,33 @@ The <base> HTML element specifies the base URL to use for all relative URLs in a
     <img src="images/monkey.png" atl="Monkey">
     <a href="lists.html">Lists</a> 
 </body>
+
+```
+
+## Miscellaneous Elements
+
+```html
+<!-- Div
+    The Content Division element
+    The <div> HTML element is the generic container for flow content.
+    It has no effect on the content or layout until styled in some way using CSS.-->
+
+<div>Content</div>
+
+
+<!-- Marquee [Deprecated: This feature is no longer recommended.]
+    The <marquee> HTML element is used to insert a scrolling area of text. -->
+
+<marquee behavior="scroll" direction="">This is HTML Marquee.</marquee>
+
+
+<!-- Template
+    The Content Template element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript. -->
+
+<template id="myTemplate">
+  <div class="myClass">
+      Content
+  </div>
+</template>
 
 ```
